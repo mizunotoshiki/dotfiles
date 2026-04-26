@@ -1,8 +1,5 @@
-[user]
-	email = mizuno@snowlys.co.jp
-	name = Mizuno Toshiki
 [core]
-	excludesfile = /Users/mizunotoshiki/.gitignore_global
+	excludesfile = ~/.gitignore_global
 [difftool "sourcetree"]
 	cmd = opendiff \"$LOCAL\" \"$REMOTE\"
 	path = 
@@ -12,4 +9,6 @@
 [safe]
 	bareRepository = explicit
 [commit]
-	template = /Users/mizunotoshiki/.stCommitMsg
+	template = ~/.stCommitMsg
+[include]
+	path = ~/.gitconfig.local
