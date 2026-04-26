@@ -18,7 +18,7 @@ cd ~/dotfiles
 ```
 
 ### ~/.zshrc.local を作成（PC固有の設定）
-ここの設定はここに追記する
+PC固有の設定はここに追記する
 
 ### iTerm2の設定
 Settings → General → Settings → Load settings from a custom folder
